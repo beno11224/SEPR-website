@@ -1,4 +1,3 @@
 site_name: Lorem Ipsum
 pages:
-- Home: welcome.md
-theme: readthedocs
+- Home: index.md
