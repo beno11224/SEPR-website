@@ -1,0 +1,4 @@
+site_name: Lorem Ipsum
+pages:
+- Home: docs/welcome.md
+theme: readthedocs
