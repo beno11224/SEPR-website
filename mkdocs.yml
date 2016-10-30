@@ -1,3 +1,7 @@
 site_name: Lorem Ipsum
 pages:
 - Home: index.md
+formats:
+    - epub
+    - pdf
+    - htmlzip
