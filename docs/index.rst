@@ -20,4 +20,5 @@ in turpis pulvinar facilisis. Ut felis.
    :maxdepth: 2
    :caption: Contents
 
+   architecture
    page2
