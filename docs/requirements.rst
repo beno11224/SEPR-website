@@ -1,7 +1,8 @@
 Requirements
-=======================================
+============
 
-**Introduction**
+Introduction
+-------------
 
 First the team each read through the brief and associated documentation.
 Then we got together and discussed our ideas, coming up with a rough
@@ -57,102 +58,262 @@ below (6.3.2) due to the possibility that a person wanting to play the
 game cannot see some colours. Requirements based on hardware have all
 taken into account the systems that the game is designed to run on.
 
-**Functional Requirements**
+Functional Requirements
+------------------------
 
-\|No.\|Requirement\|Success Criteria\|Alternative Requirements\|
-\|Characters\| \|1.1.1\|The murderer and victim must be randomly
-selected each time the game begins from two sub-lists of murderers and
-victims.\|Upon loading the game at least 2 times either or both the
-victim and murderer will change.\|N/A - necessary requirement.\|
-\|1.1.2\|The NPCs must spawn randomly into rooms so that each room has
-at least one NPC at the start of the game.\|Upon loading of the game the
-NPCs will be spread around the map so that there is no room without an
-NPC.\|We will have to rotate where the NPCs spawn.\| \|MAP\|
-\|2.1.1\|Rooms on the viewable map must be revealed only once the player
-has visited the respective rooms.\|Walk through map and check that rooms
-are only revealed once visited.\|All of the map will be visible from the
-start.\| \|DIALOGUE/INTERACTION\| \|3.1.1\|The player must always get
-three choices of interaction with NPCs - Question, Accuse and
-Ignore.\|Ensure while game is running the player can use any of these
-interactions with NPCs.\|N/A - necessary requirement.\| \|3.1.2\|All
-dialogue must change based on the characteristics of the player
-character and NPC.\|With different previous interactions, conversations
-between NPCs and the player change.\|Each character has set lines of
-dialogue.\| \|3.1.3\|The game should have a method, for example a button
-at the side of the game, to allow the player to view the map, character
-sheets, clues found and other points of interest.\|Check functionality
-as described throughout a play-through.\|N/A - otherwise the player
-cannot review information collected.\| \|Clues\| \|4.1.1\|Clues must
-help with the elimination process, but some will point to more than one
-character.\|Ensure that all clues look meaningful, but some have false
-assumptions associated with them.\|N/A - clues are necessary.\|
-\|4.1.2\|The murder weapon must be found before the player is able to
-accuse any NPCs.\|Make sure the player cannot accuse NPCs before they
-have found the murder weapon.\|Murder weapon does not have to be found
-before the player is able to accuse NPCs.\| \|Score\| \|5.1.1\|The score
-must be raised when a clue is found.\|If the player finds a clue, the
-score is raised.\|There will be no scoring.\| \|5.1.2\|The score must be
-lowered for each wrong accusation and each question asked.\|The score
-changes as required.\|There will be no scoring.\| \|5.3.1\|The player
-could start with a predetermined score which is reduced for each second
-played.\|Check that score reduces as time is spent playing the
-game.\|There will be no scoring.\| \|Other/System\| \|6.3.1.1\|IF the
-game has a soundtrack it must have a ‘sound on/off’ option.\|Check that
-sound turns on/off when appropriate option chosen.\|The game will have
-no soundtrack.\| \|No.\|Requirement\|Success Criteria\|Alternative
-Requirements\| \|Characters\| \|1.1.3\|The game must have a cast of 10
-NPCs (Non-Player Characters).\|The game contains 10 NPCs.\|N/A -
-necessary requirement.\| \|1.1.4\|The murderer must have a motive that
-becomes clear at some point in the game, not necessarily before they are
-accused.\|Game functions as described.\|The murderer will not have a
-clear motive.\| \|1.1.5\|There must be a narrator who acts as the
-tutorial and further help during gameplay.\|The narrator talks to the
-player.\|There will be no narrator.\| \|MAP\| \|2.1.2\|The game must
-contain a game-map of 10 separate rooms, spread across the setting of
-‘The Ron Cooke Hub’.\|The game will have 10 rooms.\|N/A - necessary
-requirement.\| \|2.2.1\|The room of the crime scene/murder room must be
-chosen randomly each time the game begins.\|Upon loading the game at
-least 2 times the murder room will change.\|The crime scene is always in
-the same place.\| \|Dialogue/Interaction\| \|3.1.4\|The game must have
-multiple ‘plot lines’.\|Play through the game multiple times, checking
-that the plot lines differ each time.\|N/A - necessary requirement.\|
-\|3.2.1\|Some plotlines could be more intricate than others.\|Play
-through the game and determine that some plotlines are more
-complicated.\|The game line has similar plot lines.\| \|Clues\|
-\|4.1.3\|There must be at least one clue to find in each room on the
-map.\|Make sure that clues spawn in each room.\|N/A - necessary
-requirement.\| \|4.2.1\|Some ‘constant’ clues should be available, for
-example the guest sign in book in the central part of the map.\|Check
-that consistent clues spawn in the correct place on at least 2 separate
-occasions.\|There are no ‘constant’ clues.\| \|4.2.2\|Some rooms should
-have more than one clue e..g note left by victim/murder weapon.\|Check
-that at least one room has at least one clue in.\|There is only one clue
-per room\| \|4.3.1\|The player could be able to interact with or pick up
-some items which are not clues.\|Check the player can interact with some
-item and it not be listed as a clue.\|All clues will be meaningful.\|
-\|Score\| \|5.1.3\|The player must be scored on time taken, number of
-wrong accusations, number of questions asked and number of clues
-found.\|Play through the game at least 3 times to check that scores add
-up as expected.\|There will be no scoring system.\| \|5.3.2\|A list of
-high-scores could be stored on a server.\|Check the server contains the
-high scores.\|There will be a local list of high scores or no list of
-high scores.\| \|Other/System\| \|6.1.1\|The game will be controlled by
-\_\ **XXXXXXXXX**.\|Determine the game is controlled as described.\|N/A
-- necessary requirement.\| \|6.1.2\|The game must play on a windows
-based system.\|Determine the game runs on the system described.\|N/A -
-necessary requirement.\| \|6.1.3\|The game must be played in a ‘top
-down’ viewpoint, where the player is in the centre of the screen and the
-world moves around the player. The viewpoint is fixed zoom.\|Check the
-game is viewed as described.\|The game will be played in an improved
-viewpoint based on the reason for discarding this one.\| \|6.2.1\|The
-game should run smoothly on university computers.\|Use frame-rate
-measuring software to obtain a frame-rate of at-least 30.\|N/A -
-necessary requirement.\| \|6.3.1\|The game could have a
-soundtrack.\|Check that sound plays when game is running.\|The game will
-not have a soundtrack.\| \|6.3.2\|The game could have a ‘colour blind’
-setting.\|When activated, the colourblind setting changes all textures
-in the game to ones that are easier for a colour-blind person to
-see.\|The game textures will be designed with colour blindness in
-mind.\| \|6.3.3\|The game could be cross compatible on mobile (android)
-and Mac.\|Make sure game runs on alternative systems.\|The game will not
-be cross compatible.\|
++--------------------+--------------------+--------------------+--------------------+
+| No.                | Requirement        | Success Criteria   | Alternative        |
+|                    |                    |                    | Requirements       |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Characters         |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 1.1.1              | The murderer and   | Upon loading the   | N/A - necessary    |
+|                    | victim must be     | game at least 2    | requirement.       |
+|                    | randomly selected  | times either or    |                    |
+|                    | each time the game | both the victim    |                    |
+|                    | begins from two    | and murderer will  |                    |
+|                    | sub-lists of       | change.            |                    |
+|                    | murderers and      |                    |                    |
+|                    | victims.           |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 1.1.2              | The NPCs must      | Upon loading of    | We will have to    |
+|                    | spawn randomly     | the game the NPCs  | rotate where the   |
+|                    | into rooms so that | will be spread     | NPCs spawn.        |
+|                    | each room has at   | around the map so  |                    |
+|                    | least one NPC at   | that there is no   |                    |
+|                    | the start of the   | room without an    |                    |
+|                    | game.              | NPC.               |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | MAP                |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 2.1.1              | Rooms on the       | Walk through map   | All of the map     |
+|                    | viewable map must  | and check that     | will be visible    |
+|                    | be revealed only   | rooms are only     | from the start.    |
+|                    | once the player    | revealed once      |                    |
+|                    | has visited the    | visited.           |                    |
+|                    | respective rooms.  |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | DIALOGUE/INTERACTI |                    |                    |
+|                    | ON                 |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 3.1.1              | The player must    | Ensure while game  | N/A - necessary    |
+|                    | always get three   | is running the     | requirement.       |
+|                    | choices of         | player can use any |                    |
+|                    | interaction with   | of these           |                    |
+|                    | NPCs - Question,   | interactions with  |                    |
+|                    | Accuse and Ignore. | NPCs.              |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 3.1.2              | All dialogue must  | With different     | Each character has |
+|                    | change based on    | previous           | set lines of       |
+|                    | the                | interactions,      | dialogue.          |
+|                    | characteristics of | conversations      |                    |
+|                    | the player         | between NPCs and   |                    |
+|                    | character and NPC. | the player change. |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 3.1.3              | The game should    | Check              | N/A - otherwise    |
+|                    | have a method, for | functionality as   | the player cannot  |
+|                    | example a button   | described          | review information |
+|                    | at the side of the | throughout a       | collected.         |
+|                    | game, to allow the | play-through.      |                    |
+|                    | player to view the |                    |                    |
+|                    | map, character     |                    |                    |
+|                    | sheets, clues      |                    |                    |
+|                    | found and other    |                    |                    |
+|                    | points of          |                    |                    |
+|                    | interest.          |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Clues              |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 4.1.1              | Clues must help    | Ensure that all    | N/A - clues are    |
+|                    | with the           | clues look         | necessary.         |
+|                    | elimination        | meaningful, but    |                    |
+|                    | process, but some  | some have false    |                    |
+|                    | will point to more | assumptions        |                    |
+|                    | than one           | associated with    |                    |
+|                    | character.         | them.              |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 4.1.2              | The murder weapon  | Make sure the      | Murder weapon does |
+|                    | must be found      | player cannot      | not have to be     |
+|                    | before the player  | accuse NPCs before | found before the   |
+|                    | is able to accuse  | they have found    | player is able to  |
+|                    | any NPCs.          | the murder weapon. | accuse NPCs.       |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Score              |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 5.1.1              | The score must be  | If the player      | There will be no   |
+|                    | raised when a clue | finds a clue, the  | scoring.           |
+|                    | is found.          | score is raised.   |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 5.1.2              | The score must be  | The score changes  | There will be no   |
+|                    | lowered for each   | as required.       | scoring.           |
+|                    | wrong accusation   |                    |                    |
+|                    | and each question  |                    |                    |
+|                    | asked.             |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 5.3.1              | The player could   | Check that score   | There will be no   |
+|                    | start with a       | reduces as time is | scoring.           |
+|                    | predetermined      | spent playing the  |                    |
+|                    | score which is     | game.              |                    |
+|                    | reduced for        |                    |                    |
+|                    | each second        |                    |                    |
+|                    | played.            |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Other/System       |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.3.1.1            | IF the game has a  | Check that sound   | The game will have |
+|                    | soundtrack it must | turns on/off when  | no soundtrack.     |
+|                    | have a ‘sound      | appropriate option |                    |
+|                    | on/off’ option.    | chosen.            |                    |
++--------------------+--------------------+--------------------+--------------------+
+
+Non-Functional Requirements
+
++--------------------+--------------------+--------------------+--------------------+
+| No.                | Requirement        | Success Criteria   | Alternative        |
+|                    |                    |                    | Requirements       |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Characters         |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 1.1.3              | The game must have | The game contains  | N/A - necessary    |
+|                    | a cast of 10 NPCs  | 10 NPCs.           | requirement.       |
+|                    | (Non-Player        |                    |                    |
+|                    | Characters).       |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 1.1.4              | The murderer must  | Game functions as  | The murderer will  |
+|                    | have a motive that | described.         | not have a clear   |
+|                    | becomes clear at   |                    | motive.            |
+|                    | some point in the  |                    |                    |
+|                    | game, not          |                    |                    |
+|                    | necessarily before |                    |                    |
+|                    | they are accused.  |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 1.1.5              | There must be a    | The narrator talks | There will be no   |
+|                    | narrator who acts  | to the player.     | narrator.          |
+|                    | as the tutorial    |                    |                    |
+|                    | and further help   |                    |                    |
+|                    | during gameplay.   |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | MAP                |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 2.1.2              | The game must      | The game will have | N/A - necessary    |
+|                    | contain a game-map | 10 rooms.          | requirement.       |
+|                    | of 10 separate     |                    |                    |
+|                    | rooms, spread      |                    |                    |
+|                    | across the setting |                    |                    |
+|                    | of ‘The Ron Cooke  |                    |                    |
+|                    | Hub’.              |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 2.2.1              | The room of the    | Upon loading the   | The crime scene is |
+|                    | crime scene/murder | game at least 2    | always in the same |
+|                    | room must be       | times the murder   | place.             |
+|                    | chosen randomly    | room will change.  |                    |
+|                    | each time the game |                    |                    |
+|                    | begins.            |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Dialogue/Interacti |                    |                    |
+|                    | on                 |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 3.1.4              | The game must have | Play through the   | N/A - necessary    |
+|                    | multiple ‘plot     | game multiple      | requirement.       |
+|                    | lines’.            | times, checking    |                    |
+|                    |                    | that the plot      |                    |
+|                    |                    | lines differ each  |                    |
+|                    |                    | time.              |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 3.2.1              | Some plotlines     | Play through the   | The game line has  |
+|                    | could be more      | game and determine | similar plot       |
+|                    | intricate than     | that some          | lines.             |
+|                    | others.            | plotlines are more |                    |
+|                    |                    | complicated.       |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Clues              |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 4.1.3              | There must be at   | Make sure that     | N/A - necessary    |
+|                    | least one clue to  | clues spawn in     | requirement.       |
+|                    | find in each       | each room.         |                    |
+|                    | room on the map.   |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 4.2.1              | Some ‘constant’    | Check that         | There are no       |
+|                    | clues should be    | consistent clues   | ‘constant’ clues.  |
+|                    | available, for     | spawn in the       |                    |
+|                    | example the guest  | correct place on   |                    |
+|                    | sign in book in    | at least 2         |                    |
+|                    | the central part   | separate           |                    |
+|                    | of the map.        | occasions.         |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 4.2.2              | Some rooms should  | Check that at      | There is only one  |
+|                    | have more than one | least one room has | clue per room      |
+|                    | clue e..g note     | at least one clue  |                    |
+|                    | left by            | in.                |                    |
+|                    | victim/murder      |                    |                    |
+|                    | weapon.            |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 4.3.1              | The player could   | Check the player   | All clues will be  |
+|                    | be able to         | can interact with  | meaningful.        |
+|                    | interact with or   | some item and it   |                    |
+|                    | pick up some items | not be listed as a |                    |
+|                    | which are not      | clue.              |                    |
+|                    | clues.             |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Score              |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 5.1.3              | The player must be | Play through the   | There will be no   |
+|                    | scored on time     | game at least 3    | scoring system.    |
+|                    | taken, number of   | times to check     |                    |
+|                    | wrong accusations, | that scores add up |                    |
+|                    | number of          | as expected.       |                    |
+|                    | questions asked    |                    |                    |
+|                    | and number of      |                    |                    |
+|                    | clues found.       |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 5.3.2              | A list of          | Check the server   | There will be a    |
+|                    | high-scores could  | contains the high  | local list of high |
+|                    | be stored on a     | scores.            | scores or no list  |
+|                    | server.            |                    | of high scores.    |
++--------------------+--------------------+--------------------+--------------------+
+|                    | Other/System       |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.1.1              | The game will be   | Determine the game | N/A - necessary    |
+|                    | controlled by      | is controlled as   | requirement.       |
+|                    | \_\_\_XXXXXXXXX\_\ | described.         |                    |
+|                    | _.                 |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.1.2              | The game must play | Determine the game | N/A - necessary    |
+|                    | on a windows based | runs on the system | requirement.       |
+|                    | system.            | described.         |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.1.3              | The game must be   | Check the game is  | The game will be   |
+|                    | played in a ‘top   | viewed as          | played in an       |
+|                    | down’ viewpoint,   | described.         | improved viewpoint |
+|                    | where the player   |                    | based on the       |
+|                    | is in the centre   |                    | reason for         |
+|                    | of the screen and  |                    | discarding this    |
+|                    | the world moves    |                    | one.               |
+|                    | around the player. |                    |                    |
+|                    | The viewpoint is   |                    |                    |
+|                    | fixed zoom.        |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.2.1              | The game should    | Use frame-rate     | N/A - necessary    |
+|                    | run smoothly on    | measuring software | requirement.       |
+|                    | university         | to obtain a        |                    |
+|                    | computers.         | frame-rate of      |                    |
+|                    |                    | at-least 30.       |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.3.1              | The game could     | Check that sound   | The game will not  |
+|                    | have a soundtrack. | plays when game is | have a soundtrack. |
+|                    |                    | running.           |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.3.2              | The game could     | When activated,    | The game textures  |
+|                    | have a ‘colour     | the colourblind    | will be designed   |
+|                    | blind’ setting.    | setting changes    | with colour        |
+|                    |                    | all textures in    | blindness in mind. |
+|                    |                    | the game to ones   |                    |
+|                    |                    | that are easier    |                    |
+|                    |                    | for a colour-blind |                    |
+|                    |                    | person to see.     |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 6.3.3              | The game could be  | Make sure game     | The game will not  |
+|                    | cross compatible   | runs on            | be cross           |
+|                    | on mobile          | alternative        | compatible.        |
+|                    | (android) and Mac. | systems.           |                    |
++--------------------+--------------------+--------------------+--------------------+
